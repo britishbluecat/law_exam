@@ -8,7 +8,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # APIキーの設定
-api_key = ''
+def load_api_key():
+    key_file = 'key.txt'
+    if os.path.exists(key_file):
+        with open(key_file, 'r') as f:
+            return f.readline().strip()
+    else:
+        raise FileNotFoundError("key.txt が見つかりません。APIキーを設定してください。")
+
+# APIキーの読み込み
+api_key = load_api_key()
 openai.api_key = api_key
 
 # インデックスファイルの設定
