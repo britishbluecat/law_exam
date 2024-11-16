@@ -7,6 +7,7 @@ law_exam_data.xlsx<br/>
 model="gpt-4"
 
 <b>注意事項：</b><br/>
+key.txtは、ご自身で <br/>
 .xlsxファイルの項目名 <br/>
 .xlsxファイルの内容（正誤問題） <br/>
 .pyファイルのapi_key
