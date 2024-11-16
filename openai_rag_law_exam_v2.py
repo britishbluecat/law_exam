@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # APIキーの設定
-api_key = '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'
+api_key = ''
 openai.api_key = api_key
 
 # ユーザーインプット
