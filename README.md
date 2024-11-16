@@ -1,3 +1,8 @@
+<b>ワーキングファイル：</b> <br/>
+openai_rag_law_exam_gui_v1.py<br/>
+backend_logic_v10.py<br/>
+law_exam_data.xlsx<br/>
+
 <b>LLM：</b> <br/>
 model="gpt-4"
 
